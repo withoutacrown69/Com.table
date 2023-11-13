@@ -35,9 +35,8 @@
 ¡No son un juego!</h1> 
 				<img src="imagen/EOO.jpg" height="230" width="330" align="right" border="2px">
 
-	<p align="justify"> El inventario perpetuo es el registro de existencias que se realiza después de que cada transacción con el fin de aportar información actualizada y confiable sobre una base diaria. <br> <br> Un sistema de inventarios perpetuo permite conocer en todo momento el nivel de inventarios y el valor del mismo.<br> <br> Entre las principales ventajas de un sistema de inventarios perpetuo: permite conocer en todo momento el valor del inventario final, no requiere el cierre temporal del negocio para el recuento de existencias, facilita la detección de extravíos, robos y errores durante el manejo de mercancías, entre otros. <strong> Para manejar un sistema de inventario perpetuo, es posible utilizar los métodos de evaluación PEPS, UEPS y de promedio ponderado.</strong></p>
-
-
+	<p align="justify"> El inventario perpetuo es el registro de existencias que se realiza después de que cada transacción con el fin de aportar información actualizada y confiable sobre una base diaria. <br> <br> Un sistema de inventarios perpetuo permite conocer en todo momento el nivel de inventarios y el valor del mismo.<br> <br> Entre las principales ventajas de un sistema de inventarios perpetuo: permite conocer en todo momento el valor del inventario final, no requiere el cierre temporal del negocio para el recuento de existencias, facilita la detección de extravíos, robos y errores durante el manejo de mercancías, entre otros. <strong> Para manejar un sistema de inventario perpetuo, es posible utilizar los métodos de evaluación PEPS, UEPS y de promedio ponderado. Esto suele ejecutarse en tablas de rayado diario como las siguientes:</strong></p>
+ 
 
 <h2>Rayado diario</h2>
 	<p>Datos estadisticos.</p>
@@ -1023,17 +1022,17 @@ function check(){
  //Ahora empezemos a agregar variables
 
 //variable de campo de texto
-var txt = document.getElementById("totales").value;
+var txt1 = document.getElementById("totales").value;
 //variable de lo requerido para iniciar "el texto"
-var required = document.getElementById("totalesB").value;
+var required1 = document.getElementById("totalesB").value;
 
 //empezemos con las condiciones usando "if"
 
-if(txt == required){
- alert("Tabla 10 ¡Las cuentas coinciden! :D")
+if(txt1 == required1){
+ alert("Tabla 1 ¡Las cuentas coinciden! :D")
 }
 else{
- alert("Tabla 10 ¡Las cuentas no coinciden! :(")
+ alert("Tabla 1 ¡Las cuentas no coinciden! :(")
 }
 }
 </script>
@@ -2017,21 +2016,22 @@ else{
 <td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB2" step="0.001"></td>
 </tr>
 </table>  
- 
+
+
 <script>
 //empezemos a trabajar aquí
 
-function check(){
+function check2(){
  //Ahora empezemos a agregar variables
 
 //variable de campo de texto
-var txt = document.getElementById("totales2").value;
+var txt1 = document.getElementById("totales2").value;
 //variable de lo requerido para iniciar "el texto"
-var required = document.getElementById("totalesB2").value;
+var required1 = document.getElementById("totalesB2").value;
 
 //empezemos con las condiciones usando "if"
 
-if(txt == required){
+if(txt1 == required1){
  alert("Tabla 2 ¡Las cuentas coinciden! :D")
 }
 else{
@@ -2040,7 +2040,8 @@ else{
 }
 </script>
 <!--Aqui ira el boton no necesariamente un submit-->
-<button onclick="check()">Revisar igualdad</button>
+<button onclick="check2()">Revisar igualdad 2</button>
+
 
 <h2>Rayado diario 3</h2>
 	<p>Datos estadisticos.</p>
@@ -3018,21 +3019,22 @@ else{
 <td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB3" step="0.001"></td>
 </tr>
 </table>  
- 
+
+
 <script>
 //empezemos a trabajar aquí
 
-function check(){
+function check3(){
  //Ahora empezemos a agregar variables
 
 //variable de campo de texto
-var txt = document.getElementById("totales3").value;
+var txt1 = document.getElementById("totales3").value;
 //variable de lo requerido para iniciar "el texto"
-var required = document.getElementById("totalesB3").value;
+var required1 = document.getElementById("totalesB3").value;
 
 //empezemos con las condiciones usando "if"
 
-if(txt == required){
+if(txt1 == required1){
  alert("Tabla 3 ¡Las cuentas coinciden! :D")
 }
 else{
@@ -3041,7 +3043,1009 @@ else{
 }
 </script>
 <!--Aqui ira el boton no necesariamente un submit-->
-<button onclick="check()">Revisar igualdad</button>
+<button onclick="check3()">Revisar igualdad 3</button>
+
+
+<h2>Rayado diario 4</h2>
+	<p>Datos estadisticos.</p>
+<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Concepto </td>
+    <td bgcolor="#FFFFFF" align="center"> Debe </td>
+    <td bgcolor="#FFFFFF" align="center"> Haber </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1</label> <input type="number" name="" id="Valor 1E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1B</label> <input type="number" name="" id="Valor 1BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2</label> <input type="number" name="" id="Valor 2E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2B</label> <input type="number" name="" id="Valor 2BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3</label> <input type="number" name="" id="Valor 3E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3B</label> <input type="number" name="" id="Valor 3BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4</label> <input type="number" name="" id="Valor 4E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4B</label> <input type="number" name="" id="Valor 4BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5</label> <input type="number" name="" id="Valor 5E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5B</label> <input type="number" name="" id="Valor 5BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6</label> <input type="number" name="" id="Valor 6E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6B</label> <input type="number" name="" id="Valor 6BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7</label> <input type="number" name="" id="Valor 7E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7B</label> <input type="number" name="" id="Valor 7BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8</label> <input type="number" name="" id="Valor 8E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8B</label> <input type="number" name="" id="Valor 8BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9</label> <input type="number" name="" id="Valor 9E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9B</label> <input type="number" name="" id="Valor 9BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10</label> <input type="number" name="" id="Valor 10E" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10B</label> <input type="number" name="" id="Valor 10BE" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" align="center"><label> Totales</label> </td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales4" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB4" step="0.001"></td>
+</tr>
+</table>  
+
+<script>
+//empezemos a trabajar aquí
+
+function check4(){
+ //Ahora empezemos a agregar variables
+
+//variable de campo de texto
+var txt4 = document.getElementById("totales4").value;
+//variable de lo requerido para iniciar "el texto"
+var required4 = document.getElementById("totalesB4").value;
+
+//empezemos con las condiciones usando "if"
+
+if(txt4 == required4){
+ alert("Tabla 4 ¡Las cuentas coinciden! :D")
+}
+else{
+ alert("Tabla 4 ¡Las cuentas no coinciden! :(")
+}
+}
+</script>
+<!--Aqui ira el boton no necesariamente un submit-->
+<button onclick="check4()">Revisar igualdad 4</button>
 
 <h2>Rayado diario 5</h2>
 	<p>Datos estadisticos.</p>
@@ -4019,21 +5023,21 @@ else{
 <td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB5" step="0.001"></td>
 </tr>
 </table>  
- 
+
 <script>
 //empezemos a trabajar aquí
 
-function check(){
+function check5(){
  //Ahora empezemos a agregar variables
 
 //variable de campo de texto
-var txt = document.getElementById("totales5").value;
+var txt5 = document.getElementById("totales5").value;
 //variable de lo requerido para iniciar "el texto"
-var required = document.getElementById("totalesB5").value;
+var required5 = document.getElementById("totalesB5").value;
 
 //empezemos con las condiciones usando "if"
 
-if(txt == required){
+if(txt5 == required5){
  alert("Tabla 5 ¡Las cuentas coinciden! :D")
 }
 else{
@@ -4042,11 +5046,5063 @@ else{
 }
 </script>
 <!--Aqui ira el boton no necesariamente un submit-->
-<button onclick="check()">Revisar igualdad</button>
+<button onclick="check5()">Revisar igualdad 5</button>
+
+
+<h2>Rayado diario 6</h2>
+	<p>Datos estadisticos.</p>
+<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Concepto </td>
+    <td bgcolor="#FFFFFF" align="center"> Debe </td>
+    <td bgcolor="#FFFFFF" align="center"> Haber </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1</label> <input type="number" name="" id="Valor 1G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1B</label> <input type="number" name="" id="Valor 1BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2</label> <input type="number" name="" id="Valor 2G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2B</label> <input type="number" name="" id="Valor 2BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3</label> <input type="number" name="" id="Valor 3G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3B</label> <input type="number" name="" id="Valor 3BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4</label> <input type="number" name="" id="Valor 4G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4B</label> <input type="number" name="" id="Valor 4BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5</label> <input type="number" name="" id="Valor 5G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5B</label> <input type="number" name="" id="Valor 5BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6</label> <input type="number" name="" id="Valor 6G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6B</label> <input type="number" name="" id="Valor 6BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7</label> <input type="number" name="" id="Valor 7G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7B</label> <input type="number" name="" id="Valor 7BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8</label> <input type="number" name="" id="Valor 8G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8B</label> <input type="number" name="" id="Valor 8BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9</label> <input type="number" name="" id="Valor 9G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9B</label> <input type="number" name="" id="Valor 9BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10</label> <input type="number" name="" id="Valor 10G" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10B</label> <input type="number" name="" id="Valor 10BG" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" align="center"><label> Totales</label> </td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales6" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB6" step="0.001"></td>
+</tr>
+</table>  
+
+<script>
+//empezemos a trabajar aquí
+
+function check6(){
+ //Ahora empezemos a agregar variables
+
+//variable de campo de texto
+var txt6 = document.getElementById("totales6").value;
+//variable de lo requerido para iniciar "el texto"
+var required6 = document.getElementById("totalesB6").value;
+
+//empezemos con las condiciones usando "if"
+
+if(txt6 == required6){
+ alert("Tabla 6 ¡Las cuentas coinciden! :D")
+}
+else{
+ alert("Tabla 6 ¡Las cuentas no coinciden! :(")
+}
+}
+</script>
+<!--Aqui ira el boton no necesariamente un submit-->
+<button onclick="check6()">Revisar igualdad 6</button>
+
+
+<h2>Rayado diario 7</h2>
+	<p>Datos estadisticos.</p>
+<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Concepto </td>
+    <td bgcolor="#FFFFFF" align="center"> Debe </td>
+    <td bgcolor="#FFFFFF" align="center"> Haber </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1</label> <input type="number" name="" id="Valor 1H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1B</label> <input type="number" name="" id="Valor 1BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2</label> <input type="number" name="" id="Valor 2H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2B</label> <input type="number" name="" id="Valor 2BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3</label> <input type="number" name="" id="Valor 3H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3B</label> <input type="number" name="" id="Valor 3BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4</label> <input type="number" name="" id="Valor 4H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4B</label> <input type="number" name="" id="Valor 4BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5</label> <input type="number" name="" id="Valor 5H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5B</label> <input type="number" name="" id="Valor 5BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6</label> <input type="number" name="" id="Valor 6H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6B</label> <input type="number" name="" id="Valor 6BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7</label> <input type="number" name="" id="Valor 7H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7B</label> <input type="number" name="" id="Valor 7BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8</label> <input type="number" name="" id="Valor 8H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8B</label> <input type="number" name="" id="Valor 8BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9</label> <input type="number" name="" id="Valor 9H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9B</label> <input type="number" name="" id="Valor 9BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10</label> <input type="number" name="" id="Valor 10H" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10B</label> <input type="number" name="" id="Valor 10BH" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" align="center"><label> Totales</label> </td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales7" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB7" step="0.001"></td>
+</tr>
+</table>  
+
+<script>
+//empezemos a trabajar aquí
+
+function check7(){
+ //Ahora empezemos a agregar variables
+
+//variable de campo de texto
+var txt7 = document.getElementById("totales7").value;
+//variable de lo requerido para iniciar "el texto"
+var required7 = document.getElementById("totalesB7").value;
+
+//empezemos con las condiciones usando "if"
+
+if(txt7 == required7){
+ alert("Tabla 7 ¡Las cuentas coinciden! :D")
+}
+else{
+ alert("Tabla 7 ¡Las cuentas no coinciden! :(")
+}
+}
+</script>
+<!--Aqui ira el boton no necesariamente un submit-->
+<button onclick="check7()">Revisar igualdad 7</button>
+ 
+
+<h2>Rayado diario 8</h2>
+	<p>Datos estadisticos.</p>
+<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Concepto </td>
+    <td bgcolor="#FFFFFF" align="center"> Debe </td>
+    <td bgcolor="#FFFFFF" align="center"> Haber </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1</label> <input type="number" name="" id="Valor 1I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1B</label> <input type="number" name="" id="Valor 1BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2</label> <input type="number" name="" id="Valor 2I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2B</label> <input type="number" name="" id="Valor 2BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3</label> <input type="number" name="" id="Valor 3I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3B</label> <input type="number" name="" id="Valor 3BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4</label> <input type="number" name="" id="Valor 4I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4B</label> <input type="number" name="" id="Valor 4BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5</label> <input type="number" name="" id="Valor 5I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5B</label> <input type="number" name="" id="Valor 5BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6</label> <input type="number" name="" id="Valor 6I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6B</label> <input type="number" name="" id="Valor 6BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7</label> <input type="number" name="" id="Valor 7I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7B</label> <input type="number" name="" id="Valor 7BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8</label> <input type="number" name="" id="Valor 8I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8B</label> <input type="number" name="" id="Valor 8BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9</label> <input type="number" name="" id="Valor 9I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9B</label> <input type="number" name="" id="Valor 9BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10</label> <input type="number" name="" id="Valor 10I" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10B</label> <input type="number" name="" id="Valor 10BI" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" align="center"><label> Totales</label> </td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales8" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB8" step="0.001"></td>
+</tr>
+</table>  
+
+<script>
+//empezemos a trabajar aquí
+
+function check8(){
+ //Ahora empezemos a agregar variables
+
+//variable de campo de texto
+var txt8 = document.getElementById("totales8").value;
+//variable de lo requerido para iniciar "el texto"
+var required8 = document.getElementById("totalesB8").value;
+
+//empezemos con las condiciones usando "if"
+
+if(txt8 == required8){
+ alert("Tabla 8 ¡Las cuentas coinciden! :D")
+}
+else{
+ alert("Tabla 8 ¡Las cuentas no coinciden! :(")
+}
+}
+</script>
+<!--Aqui ira el boton no necesariamente un submit-->
+<button onclick="check8()">Revisar igualdad 8</button>
 
 
 
-	<h2>Esquema de mayor</h2>
+<h2>Rayado diario 9</h2>
+	<p>Datos estadisticos.</p>
+<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Concepto </td>
+    <td bgcolor="#FFFFFF" align="center"> Debe </td>
+    <td bgcolor="#FFFFFF" align="center"> Haber </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1</label> <input type="number" name="" id="Valor 1J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1B</label> <input type="number" name="" id="Valor 1BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2</label> <input type="number" name="" id="Valor 2J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2B</label> <input type="number" name="" id="Valor 2BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3</label> <input type="number" name="" id="Valor 3J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3B</label> <input type="number" name="" id="Valor 3BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4</label> <input type="number" name="" id="Valor 4J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4B</label> <input type="number" name="" id="Valor 4BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5</label> <input type="number" name="" id="Valor 5J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5B</label> <input type="number" name="" id="Valor 5BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6</label> <input type="number" name="" id="Valor 6J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6B</label> <input type="number" name="" id="Valor 6BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7</label> <input type="number" name="" id="Valor 7J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7B</label> <input type="number" name="" id="Valor 7BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8</label> <input type="number" name="" id="Valor 8J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8B</label> <input type="number" name="" id="Valor 8BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9</label> <input type="number" name="" id="Valor 9J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9B</label> <input type="number" name="" id="Valor 9BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10</label> <input type="number" name="" id="Valor 10J" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10B</label> <input type="number" name="" id="Valor 10BJ" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" align="center"><label> Totales</label> </td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales9" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB9" step="0.001"></td>
+</tr>
+</table>  
+
+<script>
+//empezemos a trabajar aquí
+
+function check9(){
+ //Ahora empezemos a agregar variables
+
+//variable de campo de texto
+var txt9 = document.getElementById("totales9").value;
+//variable de lo requerido para iniciar "el texto"
+var required9 = document.getElementById("totalesB9").value;
+
+//empezemos con las condiciones usando "if"
+
+if(txt9 == required9){
+ alert("Tabla 9 ¡Las cuentas coinciden! :D")
+}
+else{
+ alert("Tabla 9 ¡Las cuentas no coinciden! :(")
+}
+}
+</script>
+<!--Aqui ira el boton no necesariamente un submit-->
+<button onclick="check9()">Revisar igualdad 9</button>
+	
+
+
+<h2>Rayado diario 10</h2>
+	<p>Datos estadisticos.</p>
+<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Concepto </td>
+    <td bgcolor="#FFFFFF" align="center"> Debe </td>
+    <td bgcolor="#FFFFFF" align="center"> Haber </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1</label> <input type="number" name="" id="Valor 1K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 1B</label> <input type="number" name="" id="Valor 1BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2</label> <input type="number" name="" id="Valor 2K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 2B</label> <input type="number" name="" id="Valor 2BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3</label> <input type="number" name="" id="Valor 3K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 3B</label> <input type="number" name="" id="Valor 3BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4</label> <input type="number" name="" id="Valor 4K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 4B</label> <input type="number" name="" id="Valor 4BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5</label> <input type="number" name="" id="Valor 5K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 5B</label> <input type="number" name="" id="Valor 5BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6</label> <input type="number" name="" id="Valor 6K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 6B</label> <input type="number" name="" id="Valor 6BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7</label> <input type="number" name="" id="Valor 7K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 7B</label> <input type="number" name="" id="Valor 7BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8</label> <input type="number" name="" id="Valor 8K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 8B</label> <input type="number" name="" id="Valor 8BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9</label> <input type="number" name="" id="Valor 9K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 9B</label> <input type="number" name="" id="Valor 9BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<td bgcolor="#FFFFFF"align="center">
+			<details>
+				<summary>Seleccionar</summary>
+				<ul>
+					<li>Caja</li>
+					<hr>
+					<li>Bancos</li>
+					<hr>
+					<li>Documentos por cobrar</li>
+					<hr>
+					<li>Mobiliario y equipo</li>
+					<hr>
+					<li>Equipo de reparto</li>
+					<hr>
+					<li>Proveedor</li>
+					<hr>
+					<li>Documentos pagar</li>
+					<hr>
+					<li>Anticipo a proveedores</li>
+					<hr>
+					<li>Deudores diversos</li>
+					<hr>
+					<li>Inversiones temporales</li>
+					<hr>
+					<li>Compras</li>
+					<hr>
+					<li>Gastos de compras</li>
+					<hr>
+					<li>Ventas</li>
+					<hr>
+					<li>Gastos de ventas</li>
+					<hr>
+					<li>Devoluciones sobre compras</li>
+					<hr>
+					<li>Devoluciones sobre ventas</li>
+					<hr>
+					<li>Descuentos sobre compras</li>
+					<hr>
+					<li>Descuentos sobre ventas</li>
+					<hr>
+					<li>Acreedores diversos</li>
+					<hr>
+					<li>Impuestos a favor</li>
+					<hr>
+					<li>Iva por pagar</li>
+					<hr>
+					<li>Iva acreditable</li>
+					<hr>
+					<li>Inventario final</li>
+					<hr>
+					<li>Pérdidas y ganancias</li>
+					<hr>
+					<li>Capital</li>
+					<hr>
+					<li>Terrenos</li>
+					<hr>
+					<li>Edificios</li>
+					<hr>
+					<li>Equipos de computo</li>
+					<hr>
+					<li>Inversiones permanentes</li>
+					<hr>
+					<li>Documentos por cobrar a largo plazo</li>
+					<hr>
+					<li>Documentos por pagar a largo plazo</li>
+					<hr>
+					<li>Gastos de mercadotecnia</li>
+					<hr>
+					<li>Gastos de investigación y desarrollo</li>
+					<hr>
+					<li>Gastos de instalación</li>
+					<hr>
+					<li>Gastos financieros</li>
+					<hr>
+					<li>IVA retenida</li>
+					<hr>
+					<li>ISR retenida</li>
+					<hr>
+					<li>Gastos de administración</li>
+					<hr>
+					<li>Productos financieros</li>
+					<hr>
+					<li>Otros productos</li>
+					<hr>
+					<li>Papelería y útiles</li>
+					<hr>
+					<li>Propaganda y publicidad</li>
+					<hr>
+				</ul>
+			</details>
+		</ul>
+		</li>
+</details></td>	
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10</label> <input type="number" name="" id="Valor 10K" step="0.001" oninput="calcular()"></td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10B</label> <input type="number" name="" id="Valor 10BK" step="0.001" oninput="calcular()"></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" align="center"><label> Totales</label> </td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales10" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB10" step="0.001"></td>
+</tr>
+</table>  
+
+<script>
+//empezemos a trabajar aquí
+
+function check10(){
+ //Ahora empezemos a agregar variables
+
+//variable de campo de texto
+var txt10 = document.getElementById("totales10").value;
+//variable de lo requerido para iniciar "el texto"
+var required10 = document.getElementById("totalesB10").value;
+
+//empezemos con las condiciones usando "if"
+
+if(txt10 == required10){
+ alert("Tabla 10 ¡Las cuentas coinciden! :D")
+}
+else{
+ alert("Tabla 10 ¡Las cuentas no coinciden! :(")
+}
+}
+</script>
+<!--Aqui ira el boton no necesariamente un submit-->
+<button onclick="check10()">Revisar igualdad 10</button>
+
+	<br>
+	<br>	
+	<br>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Inventario final </td>
+<td bgcolor="#FFFFFF" align="center"><label> Valor 10</label> <input type="number" name="" id="invff" step="0.001" oninput="calcular()"></td>
+</tr>
+</table>
+
+
+	<h2>Esquema de mayor: Inventario inicial</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Inventario inicial </td>
+    </tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center"><input type="text" name="Concepto1" id="Concepto1"></td>	
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB" step="0.001"></td>
+</tr>
+</table> 
+
+
+	<h2>Esquema de mayor: Inventario final</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Inventario final</td>
+    </tr>
+<tr>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="invf" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1" disabled></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="" step="0.001" disabled></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="" step="0.001" disabled></td>
+</tr>
+</table> 
+
+	<h2>Esquema de mayor: Caja</h2>
 	<table border="1px"> 
   <tr> 
     <td bgcolor="#FFFFFF" align="center"> Cargos </td>
@@ -4098,9 +10154,319 @@ else{
 </tr>
 </table> 
 
+	<h2>Esquema de mayor: Bancos</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Cargos </td>
+    <td bgcolor="#FFFFFF" align="center"> Abonos </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center"><input type="text" name="Concepto1" id="Concepto1"></td>	
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto2" id="Concepto2"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe2" id="Debe2"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB" step="0.001"></td>
+</tr>
+</table> 
+
+	<h2>Esquema de mayor: Mobiliario y equipo</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Cargos </td>
+    <td bgcolor="#FFFFFF" align="center"> Abonos </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center"><input type="text" name="Concepto1" id="Concepto1"></td>	
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto2" id="Concepto2"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe2" id="Debe2"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB" step="0.001"></td>
+</tr>
+</table> 
+
+	<h2>Esquema de mayor: Equipo de reparto</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Cargos </td>
+    <td bgcolor="#FFFFFF" align="center"> Abonos </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center"><input type="text" name="Concepto1" id="Concepto1"></td>	
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto2" id="Concepto2"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe2" id="Debe2"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB" step="0.001"></td>
+</tr>
+</table> 
+
+	<h2>Esquema de mayor: Proveedor</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Cargos </td>
+    <td bgcolor="#FFFFFF" align="center"> Abonos </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center"><input type="text" name="Concepto1" id="Concepto1"></td>	
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto2" id="Concepto2"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe2" id="Debe2"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB" step="0.001"></td>
+</tr>
+</table> 
+
+	<h2>Esquema de mayor: Documentos por pagar</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Cargos </td>
+    <td bgcolor="#FFFFFF" align="center"> Abonos </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center"><input type="text" name="Concepto1" id="Concepto1"></td>	
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto2" id="Concepto2"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe2" id="Debe2"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB" step="0.001"></td>
+</tr>
+</table> 
+
+	<h2>Esquema de mayor: Inventarios</h2>
+	<table border="1px"> 
+  <tr> 
+    <td bgcolor="#FFFFFF" align="center"> Inventario inicial </td>
+    <td bgcolor="#FFFFFF" align="center"> Inventario final </td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"align="center"><input type="text" name="Concepto1" id="Concepto1"></td>	
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe1" id="Debe1"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto2" id="Concepto2"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe2" id="Debe2"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto4" id="Concepto4"></td>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe4" id="Debe4"></td>
+</tr>
+
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><input type="text" name="Concepto3" id="Concepto3"></td>
+<td bgcolor="#FFFFFF" align="center"><input type="text" name="Debe3" id="Debe3"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totales" step="0.001"></td>
+<td bgcolor="#FFFFFF" align="center"><label> </label> <input type="number" name="" id="totalesB" step="0.001"></td>
+</tr>
+</table> 
 
 </body>
-
 <script type="text/javascript">
 
 	function calcular () {
@@ -4548,6 +10914,12 @@ else{
 	j = parseFloat(document.getElementById("Valor 10BK").value) || 0;
 
 	document.getElementById("totalesB10").value = a + b + c + d + e + f + g + h + i + j; 
+
+	var a = parseFloat(document.getElementById("invff").value) || 0,
+
+	b = 0 || 0;
+
+	document.getElementById("invf").value = a + b;	 	
 
 } catch (e) {}
 }
