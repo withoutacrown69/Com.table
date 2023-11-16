@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> Tabla de resultados</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="diseno.css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+
+<script>
+        // Nombres para las opciones
+        var nombresTablas = ['Compras', 'Ventas', 'Desc.y Dev. sobre compra', 'Desc. y Dev. sobre venta', 'Costo Venta', 'Gastos de compra', 'Caja y Banco', 'Clientes y Proveedores', 'Acreedores diversos', 'Terrenos y Edificios', 'Gastos financieros y administrativos'];
+
+        window.onload = function() {
+            // Agregar dos filas a la tabla al cargar la página
+            agregarFila(3);
+            agregarFila(2);
+        }
+
+        // Función para agregar una fila a la tabla
+        function agregarFila(numColumnas) {
+            var tabla = document.getElementById('tabla');
+            var fila = tabla.insertRow(-1);
+            for (var i = 0; i < numColumnas; i++) {
+                var celda = fila.insertCell(i);
+                // Crear el menú desplegable con los nombres para cada celda
+                celda.appendChild(crearMenuDesplegable(i + 1));
+            }
+        }
+
+        // Función para crear un menú desplegable con los nombres
+        function crearMenuDesplegable(columna) {
+            var select = document.createElement('select');
+            for (var i = 0; i < nombresTablas.length; i++) {
+                var option = document.createElement('option');
+                var total1 = localStorage.getItem('total1' + i); // Recuperar el valor de "cargo" del almacenamiento local
+                var total2 = localStorage.getItem('total2' + i); // Recuperar el valor de "abono" del almacenamiento local
+                option.value = total1 + ',' + total2; // Guardar ambos valores en la opción
+                option.text = nombresTablas[i] + ': Cargo ' + total1 + ', Abono ' + total2;
+                select.appendChild(option);
+            }
+            return select;
+        }
+
+        // Función para calcular los valores
+        function calcularValores() {
+            var selects = document.getElementsByTagName('select');
+            var sumaCargo = 0;
+            var sumaAbono = 0;
+            for (var i = 0; i < 2; i++) { // Solo sumar las dos primeras columnas
+                var valores = selects[i].value.split(',');
+                sumaCargo += parseFloat(valores[0]);
+                sumaAbono += parseFloat(valores[1]);
+            }
+            // Restar los valores de la tercera columna
+            var valores = selects[2].value.split(',');
+            sumaCargo -= parseFloat(valores[0]);
+            sumaAbono -= parseFloat(valores[1]);
+            // Mostrar los resultados en la segunda tabla
+            document.getElementById('resultadoCargo1').innerText = 'Resultado 1 - Cargos: ' + sumaCargo;
+            document.getElementById('resultadoAbono1').innerText = 'Resultado 1 - Abonos: ' + sumaAbono;
+
+            // Calcular los valores para la segunda fila
+            var valores = selects[3].value.split(',');
+            var restaCargo = parseFloat(valores[0]) - parseFloat(selects[4].value.split(',')[0]);
+            var restaAbono = parseFloat(valores[1]) - parseFloat(selects[4].value.split(',')[1]);
+            // Mostrar los resultados en la segunda tabla
+            document.getElementById('resultadoCargo2').innerText = 'Resultado 2 - Cargos: ' + restaCargo;
+            document.getElementById('resultadoAbono2').innerText = 'Resultado 2 - Abonos: ' + restaAbono;
+        }
+    </script>
+
+</head>
+<body bgcolor="">
+	<embed src="cueva.mp3" autostart="true" loop="true" volume="80" width="0" height="0"></embed>
+	<header class="header">
+	<div class="container logo-nav-container"> 
+<img src="imagen/flop.jpg" width="70" height="50">
+			<nav class="navigation">
+			<ul class="show">
+        <li><a href="X.html">Rayado diario y esquema de mayor</a></li>
+        <li><a href="Desarrollo.html">Balanza de comprobación</a></li>
+        <li><a href="Origen.html">Tabla de resultados</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Registrarse.html">Comentarios</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+	<main class="main">
+
+<h1>Tabla de resultados</h1>
+
+<!-- Tabla con tres columnas -->
+<table id="tabla" border="1">
+    <tr>
+        <th>Nombre 1</th>
+        <th>Nombre 2</th>
+        <th>Nombre 3</th>
+    </tr>
+    <!-- Aquí se generarán las filas -->
+</table>
+
+<!-- Botón para agregar más filas -->
+<button onclick="agregarFila(3)">Agregar fila con 3 columnas</button>
+<button onclick="agregarFila(2)">Agregar fila con 2 columnas</button>
+
+<!-- Botón para calcular los valores -->
+<button onclick="calcularValores()">Calcular valores</button>
+
+<!-- Segunda tabla para mostrar los resultados -->
+<table id="tablaResultados" border="1">
+    <tr>
+        <td id="resultadoCargo1"></td>
+        <td id="resultadoAbono1"></td>
+    </tr>
+    <tr>
+        <td id="resultadoCargo2"></td>
+        <td id="resultadoAbono2"></td>
+    </tr>
+</table>
+<!-- Botón para calcular la resta -->
+<button onclick="calcularResta()">Calcular Resta</button>
+<!-- Cuarta tabla para mostrar el resultado de la resta -->
+<table id="tablaResta" border="1">
+    <tr>
+       <td id="resultadoRestaCargo">Ganancia o Perdida de la tabla 1:</td>
+       <td id="resultadoRestaAbono">Ganancia o Perdida de la tabla 2</td>
+    </tr>
+   </table>
+<script>// Función para calcular la resta
+    function calcularResta() {
+     // Resta de los resultados de la primera tabla
+     var restaTotalCargo = parseFloat(document.getElementById('resultadoCargo1').innerText.split(': ')[1]) - parseFloat(document.getElementById('resultadoAbono1').innerText.split(': ')[1]);
+     var restaTotalAbono = parseFloat(document.getElementById('resultadoCargo2').innerText.split(': ')[1]) - parseFloat(document.getElementById('resultadoAbono2').innerText.split(': ')[1]);
+     // Mostrar los resultados en la cuarta tabla
+     document.getElementById('resultadoRestaCargo').innerText = 'Ganancia/Perdida:' + restaTotalCargo;
+     document.getElementById('resultadoRestaAbono').innerText = 'Ganancia/Perdida:' - restaTotalAbono;
+    }
+    </script>   
+
+		<div class="container">
+
+			
+    </div>
+
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<p>  Pagina diseñada por el equipo "@FLOPPA company".</p>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>

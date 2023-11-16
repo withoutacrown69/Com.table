@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> Tabla 2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="diseno.css">
+	<script>
+        window.onload = function() {
+            // Recuperar los resultados del almacenamiento local y mostrarlos en la tabla
+            for (var j = 0; j < 11; j++) {
+                var total1 = localStorage.getItem('total1' + j);
+                var total2 = localStorage.getItem('total2' + j);
+                if (total1 && total2) {
+                    document.getElementById('resultado1' + j).innerText = total1;
+                    document.getElementById('resultado2' + j).innerText = total2;
+                }
+            }
+        }
+    </script>
+
+</head>
+<body bgcolor="">
+	<embed src="mipha.mp3" autostart="true" loop="true" volume="80" width="0" height="0"></embed>
+	<header class="header">
+	<div class="container logo-nav-container"> 
+<img src="imagen/flop.jpg" width="70" height="50">
+		<nav class="navigation">
+			<ul class="show">
+				<li><a href="X.html">Rayado diario y esquema de mayor</a></li>
+				<li><a href="Desarrollo.html">Balanza de comprobación</a></li>
+				<li><a href="Origen.html">Tabla de resultados</a></li>
+				<li><a href="Contacto.html">Contacto</a></li>
+				<li><a href="Registrarse.html">Comentarios</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+	<main class="main">
+
+		<div class="container">
+
+			<h1>Balanza de comprobación</h1>
+
+
+<!-- Segunda tabla con los resultados -->
+<table id="resultados" border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Cargo</th>
+        <th>Abono</th>
+    </tr>
+    <!-- Aquí se generarán las 11 filas de resultados -->
+</table>
+
+<script>
+    // Generar las 11 filas de resultados
+    var nombresTablas = ['Compras', 'Ventas', 'Desc.y Dev. sobre compra', 'Desc. y Dev. sobre venta', 'Costo Venta', 'Gastos de compra', 'Caja y Banco', 'Clientes y Proveedores', 'Acreedores diversos', 'Terrenos y Edificios', 'Gastos financieros y administrativos'];
+    for (var j = 0; j < 11; j++) {
+        document.getElementById('resultados').innerHTML += `
+            <tr>
+                <td>` + nombresTablas[j] + `</td>
+                <td id="resultado1` + j + `"></td>
+                <td id="resultado2` + j + `"></td>
+            </tr>
+        `;
+    }
+</script>
+
+
+</main>
+
+<br><br>
+	<footer class="footer">
+		<div class="container">
+			<p> Pagina diseñada por el equipo "@FLOPPA company".	</p>
+		</div>
+		
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>

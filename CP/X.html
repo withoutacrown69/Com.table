@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> Tabla 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="diseno.css">
+	<script>
+        window.onload = function() {
+            for (var j = 0; j < 11; j++) {
+                for (var i = 0; i < 5; i++) {
+                    agregarFila(j);
+                }
+            }
+        }
+
+        function agregarFila(j) {
+            var tabla = document.getElementById('tabla' + j);
+            var fila = tabla.insertRow(-1);
+            var celda1 = fila.insertCell(0);
+            var celda2 = fila.insertCell(1);
+            celda1.innerHTML = '<input type="number" onchange="sumarValores(' + j + ')">';
+            celda2.innerHTML = '<input type="number" onchange="sumarValores(' + j + ')">';
+        }
+
+        function sumarValores(j) {
+            var total1 = 0;
+            var total2 = 0;
+            var filas = document.getElementById('tabla' + j).rows;
+            for (var i = 1; i < filas.length; i++) {
+                total1 += Number(filas[i].cells[0].children[0].value);
+                total2 += Number(filas[i].cells[1].children[0].value);
+            }
+            document.getElementById('suma1' + j).innerText = 'Suma columna 1: ' + total1;
+            document.getElementById('suma2' + j).innerText = 'Suma columna 2: ' + total2;
+
+            // Almacenar los resultados en el almacenamiento local
+            localStorage.setItem('total1' + j, total1);
+            localStorage.setItem('total2' + j, total2);
+        }
+    </script>
+</head>
+<body bgcolor="">
+	<embed src="botw.mp3" autostart="true" loop="true" volume="80" width="0" height="0"></embed>
+	<header class="header">
+	<div class="container logo-nav-container"> 
+<img src="imagen/flop.jpg" width="70" height="50">
+
+		
+		<nav class="navigation">
+			<ul class="show">
+				<li><a href="X.html">Rayado diario y esquema de mayor</a></li>
+				<li><a href="Desarrollo.html">Balanza de comprobación</a></li>
+				<li><a href="Origen.html">Tabla de resultados</a></li>
+				<li><a href="Contacto.html">Contacto</a></li>
+				<li><a href="Registrarse.html">Comentarios</a></li>	
+						</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+	<main class="main">
+
+		<div class="container">
+
+			<h1>Metodo de inventarios perpetuos <br>
+¡No son un juego!</h1> 
+				<img src="imagen/EOO.jpg" height="230" width="330" align="right" border="2px">
+
+	<p align="justify"> El inventario perpetuo es el registro de existencias que se realiza después de que cada transacción con el fin de aportar información actualizada y confiable sobre una base diaria. <br> <br> Un sistema de inventarios perpetuo permite conocer en todo momento el nivel de inventarios y el valor del mismo.<br> <br> Entre las principales ventajas de un sistema de inventarios perpetuo: permite conocer en todo momento el valor del inventario final, no requiere el cierre temporal del negocio para el recuento de existencias, facilita la detección de extravíos, robos y errores durante el manejo de mercancías, entre otros. <strong> Para manejar un sistema de inventario perpetuo, es posible utilizar los métodos de evaluación PEPS, UEPS y de promedio ponderado. Esto suele ejecutarse en tablas de rayado diario como las siguientes:</strong></p>
+
+	<h1>Rayado diario y esquema de mayor</h1>
+ 
+<button onclick="agregarFila()">Agregar fila</button>
+<div id="tablas">
+    <!-- Aquí se generarán las 11 tablas -->
+</div>
+
+
+<script>
+    // Generar las 11 tablas
+    var nombresTablas = ['Compras', 'Ventas', 'Desc.y Dev. sobre compra', 'Desc. y Dev. sobre venta', 'Costo Venta', 'Gastos de compra', 'Caja y Banco', 'Clientes y Proveedores', 'Acreedores diversos', 'Terrenos y Edificios', 'Gastos financieros y administrativos'];
+    for (var j = 0; j < 11; j++) {
+        document.getElementById('tablas').innerHTML += `
+            <button onclick="agregarFila(` + j + `)">Agregar fila a la tabla ` + nombresTablas[j] + `</button>
+            <table id="tabla` + j + `" border="1">
+                <tr>
+                    <th>Cargo</th>
+                    <th>Abono</th>
+                </tr>
+            </table>
+            <p id="suma1` + j + `"></p>
+            <p id="suma2` + j + `"></p>
+        `;
+    }
+</script>
+
+
+
+  		</div>
+	</main>
+	<br>
+
+	<footer class="footer">
+		<div class="container">
+			<p> Pagina diseñada por el equipo "@FLOPPA company".</p>
+		</div>
+		
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>
